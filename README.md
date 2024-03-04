@@ -8,7 +8,7 @@
 
 + [x] feign
 
-- [ ] gateway
++ [x] gateway
 
 - [ ] Docker
 
