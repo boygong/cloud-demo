@@ -35,7 +35,8 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public User queryById(@PathVariable("id") Long id) {
+    public User queryById(@PathVariable("id") Long id,@RequestHeader(value = "Truth",required = false) String truth) {
+        System.out.println("user truth: "+ truth);
         return userService.queryById(id);
     }
 }
