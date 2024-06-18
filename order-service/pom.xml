@@ -48,10 +48,19 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--sentinel-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.dorm.service</groupId>
             <artifactId>feign-api</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-hystrix</artifactId>
         </dependency>
     </dependencies>
     <build>
